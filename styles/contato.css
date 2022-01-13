@@ -60,3 +60,20 @@ th {
   border: 1px solid #000000;
   padding: 15px 8px;
 }
+
+@media screen and (max-width: 480px) {
+  main {
+    width: auto;
+  }
+
+  form,
+  table,
+  .enviar {
+    width: 90%;
+    margin: 5% 5%;
+  }
+
+  .input-padrao {
+    width: 80%;
+  }
+}
